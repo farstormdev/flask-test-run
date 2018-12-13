@@ -22,6 +22,7 @@ Initial container setup used this guide, with modifications: https://medium.com/
                 * Copy the ip address that is returned, and go to 
                     * `<ipaddress>:5000`
             * If you're on Windows 10 Pro, you should be able to go to localhost:5000 and see the page
+    Additional reference: http://containertutorials.com/docker-compose/flask-simple-app.html
 
 <h2>Tasks</h2>
 - [x] Initial app setup as POC
