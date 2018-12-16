@@ -28,3 +28,4 @@ Initial container setup used this guide, with modifications: https://medium.com/
 - [x] Initial app setup as POC
 - [] Setup a SQL database and connect it
 - [] POC CRUD functionality
+- [] Setup Kubernetes to handle code/build/test & overall structure (https://www.datawire.io/faster/dev-workflow-intro/)
