@@ -26,7 +26,8 @@ Initial container setup used this guide https://medium.com/bitcraft/dockerizing-
 
 <h2>Tasks</h2>
 
-- [x] Initial app setup as POC
-- [] Setup a SQL database and connect it
-- [] POC CRUD functionality
-- [] Setup Kubernetes to handle code/build/test & overall structure (https://www.datawire.io/faster/dev-workflow-intro/)
+* [x] Initial app setup as POC
+* [] Setup Kubernetes to handle code/build/test & overall structure (https://www.datawire.io/faster/dev-workflow-intro/)
+* [] Setup a SQL database and connect it
+* [] POC CRUD functionality
+
