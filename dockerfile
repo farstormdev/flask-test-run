@@ -6,8 +6,10 @@ COPY . /app
 WORKDIR /app
 RUN pip3 install -r requirements.txt
 RUN pip3 freeze > requirements_freeze.txt
-ENTRYPOINT [ "python3" ]
-CMD [ "app.py" ]
+COPY ./entrypoint.sh /
+ENTRYPOINT [ "/entrypoint.sh" ]
+# ENTRYPOINT [ "python3" ]
+# CMD [ "app.py" ]
 # COPY ./nginx.conf /etc/nginx/sites-enabled/default
 # RUN export LC_ALL=en_US.utf-8
 # RUN export LANG=en_US.utf-8

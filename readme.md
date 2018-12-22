@@ -15,14 +15,14 @@ Initial container setup used this guide https://medium.com/bitcraft/dockerizing-
 * To build the image, use this command in the root directory of the proejct (/flask_test_run):
     * `docker build -t flask-test-image .`
 * After building the image, use this command: 
-    * `docker run -d -p 5000:5000 flalsk-test-image`
+    * `docker run -d -p 5000:5000 flask-test-image`
 * Once the container is running, the next step depends on which version of Windows (and Docker) you're running.
-    * If you're using Docker Toolbox on Windows 10 Home, run the command:
-        * `docker-machine ip`
-        * Copy the ip address that is returned, and go to 
+	* If you're using Docker Toolbox on Windows 10 Home, run the command:
+		* `docker-machine ip`
+		* Copy the ip address that is returned, and go to 
             * `<ipaddress>:5000`
-    * If you're on Windows 10 Pro, you should be able to go to localhost:5000 and see the page
-    Additional reference: http://containertutorials.com/docker-compose/flask-simple-app.html
+	* If you're on Windows 10 Pro, you should be able to go to localhost:5000 and see the page
+	Additional reference: http://containertutorials.com/docker-compose/flask-simple-app.html
 
 <h2>Tasks</h2>
 
